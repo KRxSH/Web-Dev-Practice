@@ -29,4 +29,8 @@ router.get('/:productId', (req, res, next) => {
 });
 
 //module.exports works with require()
+<<<<<<< Updated upstream:rest-academind/api/products.js
 module.exports = router; //works with: const productRoutes = require('./api/routes/products');
+=======
+module.exports = router; //works with: const productRoutes = require('./api/routes/products');
+>>>>>>> Stashed changes:rest-academind/api/routes/products.js
